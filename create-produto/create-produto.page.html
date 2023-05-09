@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Criação Dos Produtos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content [fullscreen]="true" class="ion-padding">
+
+    <ion-input label="Nome" label-placement="floating" type="text" fill="outline" placeholder="Nome" [(ngModel)]="nome">
+    </ion-input>
+
+  <br>
+
+    <ion-input label="Descrição" label-placement="floating" type="text" fill="outline" placeholder="Descrição" [(ngModel)]="descricao">
+    </ion-input>
+
+  <br>
+
+  <ion-input label="Marca" label-placement="floating" type="text" fill="outline" placeholder="Marca" [(ngModel)]="marca">
+  </ion-input>
+
+  <br>
+
+ <ion-input label="Categoria" label-placement="floating" type="text" fill="outline" placeholder="Categoria" [(ngModel)]="categoria">
+  </ion-input>
+
+  <br>
+
+  <ion-button expand = "full">
+    Criar
+  </ion-button>
+
+</ion-content>
